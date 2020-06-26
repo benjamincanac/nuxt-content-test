@@ -23,7 +23,7 @@ export default {
   data () {
     return {
       document: {
-        title: 'Title'
+        title: 'Introduction'
       }
     }
   }
