@@ -263,8 +263,6 @@ Please choose a *framework*:
 
 Please choose a *framework*:
 
-<example-multiselect :options="['Vue', 'React', 'Angular', 'Svelte']"></example-multiselect>
-
 </div>
 
 You can also define the options for components in your front matter:

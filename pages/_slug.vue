@@ -20,11 +20,11 @@
 
 <script>
 export default {
-  data () {
+  async asyncData ({ $content, params }) {
+    const document = await $content(params.slug || 'index').fetch()
+
     return {
-      document: {
-        title: 'Introduction'
-      }
+      document
     }
   }
 }

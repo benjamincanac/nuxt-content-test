@@ -22,8 +22,6 @@ Empower your NuxtJS application with `@nuxt/content` module: write in a `content
 
 <base-list :items="features"></base-list>
 
-<p class="flex items-center">Enjoy light and dark mode: <color-switcher class="p-2"></color-switcher></p>
-
 ## Videos
 
 Demonstration of using `$content` and `<nuxt-content>` to display Markdown pages:
@@ -43,7 +41,3 @@ Using `$content()` on a directory to list, filter and search content:
   <source src="https://res.cloudinary.com/nuxt/video/upload/v1588095794/nuxt-content-movies_c0cq9p.mp4" type="video/mp4" />
   <source src="https://res.cloudinary.com/nuxt/video/upload/v1588095794/nuxt-content-movies_c0cq9p.ogv" type="video/ogg" />
 </video>
-
-## Online playground
-
-<code-sandbox :src="csb_link"></code-sandbox>
