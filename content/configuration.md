@@ -168,23 +168,6 @@ export default {
 When adding a new plugin, make sure to install it in your dependencies:
 </base-alert>
 
-<code-group>
-  <code-block label="Yarn" active>
-
-  ```bash
-  yarn add remark-emoji
-  ```
-
-  </code-block>
-  <code-block label="NPM">
-
-  ```bash
-  npm install remark-emoji
-  ```
-
-  </code-block>
-</code-group>
-
 ```js{}[nuxt.config.js]
 export default {
   content: {

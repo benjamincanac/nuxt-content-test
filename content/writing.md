@@ -278,8 +278,6 @@ multiselectOptions:
 <example-multiselect :options="multiselectOptions"></example-multiselect>
 ```
 
-<example-multiselect :options="multiselectOptions"></example-multiselect><br>
-
 <base-alert type="info">
 
 These components will be rendered using the `<nuxt-content>` component, see [displaying content](/displaying#component).
