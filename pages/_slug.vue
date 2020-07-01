@@ -22,9 +22,7 @@
 export default {
   data () {
     return {
-      document: {
-        title: 'Introduction'
-      }
+      document: {}
     }
   }
 }
